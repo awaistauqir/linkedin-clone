@@ -1,0 +1,30 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	overflow: hidden;
+}
+.login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.login > img {
+	object-fit: contain;
+	width: 200px;
+	margin: 20px 0;
+}
+
+.login > button {
+	height: 40px;
+	background: #0a66c2;
+	color: #fafafa;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: large;
+	width: 200px;
+}

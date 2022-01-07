@@ -1,0 +1,8 @@
+.app__body {
+  display: flex;
+  margin: auto;
+  max-width: 1100px;
+}
+.app {
+  background-color: #f3f2ef;
+}
